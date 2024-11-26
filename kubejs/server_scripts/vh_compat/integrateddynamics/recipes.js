@@ -448,7 +448,7 @@ onEvent("recipes", event => {
         P: 'integrateddynamics:cable',
         C: 'integrateddynamics:part_connector_mono_directional',
         V: 'the_vault:perfect_black_opal'
-    })
+    }).id('integrateddynamics:special/part_connector_omni_directional')
 
     event.shaped(Item.of('integratedterminals:terminal_storage_portable'),
         [
